@@ -42,32 +42,7 @@ and a fully moderated environment.
 
 ### Setup
 
-1. **Clone the repository**
-```bash
-   git clone https://github.com/yourusername/answermark.git
-   cd answermark
-```
-
-2. **Install dependencies**
-```bash
-   flutter pub get
-```
-
-3. **Connect to Firebase**
-```bash
-   dart pub global activate flutterfire_cli
-   flutterfire configure
-```
-
-4. **Deploy Firestore security rules**
-```bash
-   firebase deploy --only firestore:rules
-```
-
-5. **Run the app**
-```bash
-   flutter run
-```
+Available upon request
 
 ### Making yourself an admin
 After registering, go to Firebase Console → Firestore → users → your document 
